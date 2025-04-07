@@ -44,7 +44,7 @@ export function HelpButton({ text }) {
       {isOpen && (
         <div className="absolute bottom-full left-0 mb-2 w-[300px] p-4 bg-popover text-popover-foreground rounded-lg shadow-lg border border-border">
           <div className="space-y-2">
-            <h3 className="font-semibold">How to Play</h3>
+            <h3 className="font-semibold">Wie man spielt</h3>
             <p className="text-sm leading-relaxed whitespace-pre-line">{text}</p>
           </div>
           <div className="absolute left-4 bottom-[-6px] w-3 h-3 bg-popover border-b border-r border-border rotate-45" />
