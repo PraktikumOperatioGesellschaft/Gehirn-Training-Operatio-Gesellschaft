@@ -430,12 +430,12 @@ const handleAnswer = (answer) => {
             <div className={questionAreaClasses}>
               <HelpButton text="RRT:
 
-1. Read each premise (statement) carefully
-2. Evaluate if the conclusion logically follows from the premises
-3. Select 'True' if the conclusion is valid
-4. Select 'False' if the conclusion is not supported
+1. Lies jede Prämisse (Aussage) sorgfältig.  
+2. Beurteile, ob die Schlussfolgerung logisch aus den Prämissen folgt.  
+3. Wähle „Wahr“, wenn die Schlussfolgerung gültig ist.  
+4. Wähle „Falsch“, wenn die Schlussfolgerung nicht gestützt wird.  
 
-Work quickly but accurately - you have limited time for each question. Your score increases for correct answers and decreases for incorrect ones." />
+Arbeite zügig, aber genau – du hast nur begrenzte Zeit für jede Frage. Deine Punktzahl steigt bei richtigen Antworten und sinkt bei falschen." />
               <div className="flex items-center gap-4 mb-6">
                 <button
                   onClick={togglePlay}
